@@ -1,0 +1,98 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/**
+ * 24px buttons (default)
+ **/
+
+.urlflipperButton
+{
+	list-style-image: url("chrome://urlflipper/skin/toolbar-24.png") !important;
+}
+
+#urlflipperDecr-button
+{
+	-moz-image-region: rect(0px 24px 24px 0px);
+}
+
+#urlflipperIncr-button
+{
+	-moz-image-region: rect(0px 48px 24px 24px);
+}
+
+#urlflipperClear-button
+{
+	-moz-image-region: rect(0px 72px 24px 48px);
+}
+
+#urlflipperClear-button[disabled="true"]
+{
+	-moz-image-region: rect(0px 96px 24px 72px);
+}
+
+/**
+ * 16px buttons
+ **/
+
+toolbar[iconsize="small"] .urlflipperButton,
+toolbar#toolbar-menubar .urlflipperButton,
+toolbar#PersonalToolbar .urlflipperButton
+{
+	list-style-image: url("chrome://urlflipper/skin/toolbar-16.png") !important;
+}
+
+toolbar[iconsize="small"] #urlflipperDecr-button,
+toolbar#toolbar-menubar #urlflipperDecr-button,
+toolbar#PersonalToolbar #urlflipperDecr-button
+{
+	-moz-image-region: rect(0px 16px 16px 0px);
+}
+
+toolbar[iconsize="small"] #urlflipperIncr-button,
+toolbar#toolbar-menubar #urlflipperIncr-button,
+toolbar#PersonalToolbar #urlflipperIncr-button
+{
+	-moz-image-region: rect(0px 32px 16px 16px);
+}
+
+toolbar[iconsize="small"] #urlflipperClear-button,
+toolbar#toolbar-menubar #urlflipperClear-button,
+toolbar#PersonalToolbar #urlflipperClear-button
+{
+	-moz-image-region: rect(0px 48px 16px 32px);
+}
+
+toolbar[iconsize="small"] #urlflipperClear-button[disabled="true"],
+toolbar#toolbar-menubar #urlflipperClear-button[disabled="true"],
+toolbar#PersonalToolbar #urlflipperClear-button[disabled="true"]
+{
+	-moz-image-region: rect(0px 64px 16px 48px);
+}
+
+/**
+ * "Joined" dec/inc buttons on the main toolbar (Fx4+)
+ **/
+
+#nav-bar #urlflipper-buttons #urlflipperDecr-button
+{
+	-moz-margin-end: 0;
+}
+
+#nav-bar #urlflipper-buttons #urlflipperIncr-button
+{
+	-moz-border-start: none;
+	-moz-margin-start: 0;
+}
+
+#nav-bar #urlflipper-buttons #urlflipperDecr-button:-moz-locale-dir(ltr),
+#nav-bar #urlflipper-buttons #urlflipperIncr-button:-moz-locale-dir(rtl)
+{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#nav-bar #urlflipper-buttons #urlflipperDecr-button:-moz-locale-dir(rtl),
+#nav-bar #urlflipper-buttons #urlflipperIncr-button:-moz-locale-dir(ltr)
+{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}

@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Adressparameterkonfiguration">
+<!ENTITY urlflipper.dialog.urlField "Wählen Sie den veränderlichen Teil der Adresse">
+<!ENTITY urlflipper.dialog.varySegment "Zu verändernder Adressteil">
+<!ENTITY urlflipper.dialog.dataType "Datentyp">
+<!ENTITY urlflipper.dialog.dataType.dec "Dezimal (Standard)">
+<!ENTITY urlflipper.dialog.dataType.oct "Oktal">
+<!ENTITY urlflipper.dialog.dataType.uhex "Hexadezimal (Großbuchstaben)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Hexadezimal (Kleinbuchstaben)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alphanumerisch (Ziffern und/oder Buchstaben)">
+<!ENTITY urlflipper.dialog.optionsBox "Einstellungen">
+<!ENTITY urlflipper.dialog.stripZeros "Führende Nullen entfernen">
+<!ENTITY urlflipper.dialog.interval "Intervall">
+<!ENTITY urlflipper.dialog.skipCount "Maximale Fehleranzahl">

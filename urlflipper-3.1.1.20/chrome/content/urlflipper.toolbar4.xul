@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://urlflipper/locale/urlflipper.dtd">
+
+<overlay id="urlflipperToolbarOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="urlflipperDecr-button" removeelement="true" />
+		<toolbarbutton id="urlflipperIncr-button" removeelement="true" />
+
+		<toolbaritem id="urlflipper-buttons"
+		             class="chromeclass-toolbar-additional"
+		             title="&urlflipper.overlay.decr.button;/&urlflipper.overlay.incr.button;">
+			<toolbarbutton id="urlflipperDecr-button"
+			               class="toolbarbutton-1 chromeclass-toolbar-additional urlflipperButton"
+			               label="&urlflipper.overlay.decr.button;"
+			               oncommand="UrlFlipper.click(false, event);"
+			               onclick="checkForMiddleClick(this, event);"
+			               tooltiptext="&urlflipper.overlay.decr.label;" />
+			<toolbarbutton id="urlflipperIncr-button"
+			               class="toolbarbutton-1 chromeclass-toolbar-additional urlflipperButton"
+			               label="&urlflipper.overlay.incr.button;"
+			               oncommand="UrlFlipper.click(true, event);"
+			               onclick="checkForMiddleClick(this, event);"
+			               tooltiptext="&urlflipper.overlay.incr.label;" />
+		</toolbaritem>
+	</toolbarpalette>
+
+</overlay>

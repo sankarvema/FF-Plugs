@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Монтування зразку адреси">
+<!ENTITY urlflipper.dialog.urlField "Виберіть частину адреси для збільшення чи зменшення">
+<!ENTITY urlflipper.dialog.varySegment "Частина адреси, що змінюється">
+<!ENTITY urlflipper.dialog.dataType "Вибрати тип даних">
+<!ENTITY urlflipper.dialog.dataType.dec "Десятковий (типовий)">
+<!ENTITY urlflipper.dialog.dataType.oct "Вісімковий">
+<!ENTITY urlflipper.dialog.dataType.uhex "Шістнадцятковий (верхній регістр)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Шістнадцятковий (нижній регістр)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Чисельно-літерний">
+<!ENTITY urlflipper.dialog.optionsBox "Параметри">
+<!ENTITY urlflipper.dialog.stripZeros "Вилучати початкові нулі">
+<!ENTITY urlflipper.dialog.interval "Крок">
+<!ENTITY urlflipper.dialog.skipCount "Не вдалося обійти обмеження">

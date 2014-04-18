@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "URL Şablon Kurulumu">
+<!ENTITY urlflipper.dialog.urlField "URL&apos;nin artırılacak ya da azaltılacak bölümünü seçiniz">
+<!ENTITY urlflipper.dialog.varySegment "Değişime uğrayacak URL bölütü">
+<!ENTITY urlflipper.dialog.dataType "Veri türünü seçiniz">
+<!ENTITY urlflipper.dialog.dataType.dec "Onluk (varsayılan)">
+<!ENTITY urlflipper.dialog.dataType.oct "Sekizlik">
+<!ENTITY urlflipper.dialog.dataType.uhex "Hex (büyük harf)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Hex (küçük harf)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alfanümerik (rakam ve/ya harfler)">
+<!ENTITY urlflipper.dialog.optionsBox "Seçenekler">
+<!ENTITY urlflipper.dialog.stripZeros "Baştaki sıfırları kaldır">
+<!ENTITY urlflipper.dialog.interval "Aralık">
+<!ENTITY urlflipper.dialog.skipCount "Failure skip limit">

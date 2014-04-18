@@ -1,0 +1,21 @@
+<!ENTITY urlflipper.overlay.menu.label "URL Flipper">
+<!ENTITY urlflipper.overlay.menu.accesskey "F">
+<!ENTITY urlflipper.overlay.decr.button "Eksilt">
+<!ENTITY urlflipper.overlay.decr.label "URL&apos;yi Eksilt">
+<!ENTITY urlflipper.overlay.decr.accesskey "e">
+<!ENTITY urlflipper.overlay.incr.button "Artır">
+<!ENTITY urlflipper.overlay.incr.label "URL&apos;yi Artır">
+<!ENTITY urlflipper.overlay.incr.accesskey "a">
+<!ENTITY urlflipper.overlay.clear.button "Clear Pattern">
+<!ENTITY urlflipper.overlay.clear.label "Clear Current Pattern">
+<!ENTITY urlflipper.overlay.clear.accesskey "C">
+<!ENTITY urlflipper.overlay.qdecr.label "URL&apos;yi Hızlı Düşür">
+<!ENTITY urlflipper.overlay.qdecr.accesskey "z">
+<!ENTITY urlflipper.overlay.qincr.label "URL&apos;yi Hızlı Artır">
+<!ENTITY urlflipper.overlay.qincr.accesskey "l">
+<!ENTITY urlflipper.overlay.nuke.label "Delete All Pattern Data">
+<!ENTITY urlflipper.overlay.options.label "Seçenekler…">
+<!ENTITY urlflipper.settings.title "URL Flipper Ayarları">
+<!ENTITY urlflipper.settings.keysTitle "Kısayol Tuşları">
+<!ENTITY urlflipper.settings.keysInstr "Değiştirmek için, arzu ettiğiniz tuş dizilimini tuşlayınız.">
+<!ENTITY urlflipper.settings.keysEffect "Not: Değişiklikler yalnızca yeni pencereler için etkili olacaktır.">

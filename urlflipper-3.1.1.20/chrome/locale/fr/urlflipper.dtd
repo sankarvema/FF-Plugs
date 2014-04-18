@@ -1,0 +1,21 @@
+<!ENTITY urlflipper.overlay.menu.label "URL Flipper">
+<!ENTITY urlflipper.overlay.menu.accesskey "U">
+<!ENTITY urlflipper.overlay.decr.button "Décrémenter">
+<!ENTITY urlflipper.overlay.decr.label "Décrémenter l&apos;URL">
+<!ENTITY urlflipper.overlay.decr.accesskey "D">
+<!ENTITY urlflipper.overlay.incr.button "Incrémenter">
+<!ENTITY urlflipper.overlay.incr.label "Incrémenter l&apos;URL">
+<!ENTITY urlflipper.overlay.incr.accesskey "I">
+<!ENTITY urlflipper.overlay.clear.button "Effacer le motif">
+<!ENTITY urlflipper.overlay.clear.label "Effacer le motif actuel">
+<!ENTITY urlflipper.overlay.clear.accesskey "E">
+<!ENTITY urlflipper.overlay.qdecr.label "Auto-décrémenter l&apos;URL">
+<!ENTITY urlflipper.overlay.qdecr.accesskey "A">
+<!ENTITY urlflipper.overlay.qincr.label "Auto-incrémenter l&apos;URL">
+<!ENTITY urlflipper.overlay.qincr.accesskey "u">
+<!ENTITY urlflipper.overlay.nuke.label "Effacer toutes les données de motifs">
+<!ENTITY urlflipper.overlay.options.label "Options…">
+<!ENTITY urlflipper.settings.title "Paramètres d&apos;URL Flipper">
+<!ENTITY urlflipper.settings.keysTitle "Raccourcis clavier">
+<!ENTITY urlflipper.settings.keysInstr "Pour modifier, tapez la séquence de touches désirée.">
+<!ENTITY urlflipper.settings.keysEffect "Remarque : les modifications ne prendront effet que pour les nouvelles fenêtres.">

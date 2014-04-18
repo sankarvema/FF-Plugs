@@ -1,0 +1,21 @@
+<!ENTITY urlflipper.overlay.menu.label "URL Flіррer">
+<!ENTITY urlflipper.overlay.menu.accesskey "р">
+<!ENTITY urlflipper.overlay.decr.button "Зменшити">
+<!ENTITY urlflipper.overlay.decr.label "Зменшити адресу">
+<!ENTITY urlflipper.overlay.decr.accesskey "м">
+<!ENTITY urlflipper.overlay.incr.button "Збільшити">
+<!ENTITY urlflipper.overlay.incr.label "Збільшити адресу">
+<!ENTITY urlflipper.overlay.incr.accesskey "б">
+<!ENTITY urlflipper.overlay.clear.button "Очистити зразки">
+<!ENTITY urlflipper.overlay.clear.label "Очистити поточні зразки">
+<!ENTITY urlflipper.overlay.clear.accesskey "ч">
+<!ENTITY urlflipper.overlay.qdecr.label "Швидке зменшення адреси">
+<!ENTITY urlflipper.overlay.qdecr.accesskey "е">
+<!ENTITY urlflipper.overlay.qincr.label "Швидке збільшення адреси">
+<!ENTITY urlflipper.overlay.qincr.accesskey "і">
+<!ENTITY urlflipper.overlay.nuke.label "Вилучити усі дані зразків">
+<!ENTITY urlflipper.overlay.options.label "Налаштування…">
+<!ENTITY urlflipper.settings.title "Налаштування URL Flipper">
+<!ENTITY urlflipper.settings.keysTitle "Гарячі клавіші">
+<!ENTITY urlflipper.settings.keysInstr "Для зміни, натисніть бажану комбінацію клавіш.">
+<!ENTITY urlflipper.settings.keysEffect "Нотатка: Зміни набудуть сили тільки для нових вікон.">

@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Configuration du motif d&apos;URL">
+<!ENTITY urlflipper.dialog.urlField "Sélectionnez la partie de l&apos;URL à incrémenter ou décrémenter">
+<!ENTITY urlflipper.dialog.varySegment "Partie variable de l&apos;URL">
+<!ENTITY urlflipper.dialog.dataType "Sélectionnez le type de donnée">
+<!ENTITY urlflipper.dialog.dataType.dec "Décimal (défaut)">
+<!ENTITY urlflipper.dialog.dataType.oct "Octal">
+<!ENTITY urlflipper.dialog.dataType.uhex "Hexadécimal (majuscules)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Hexadécimal (minuscules)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alphanumérique (nombres et/ou lettres)">
+<!ENTITY urlflipper.dialog.optionsBox "Options">
+<!ENTITY urlflipper.dialog.stripZeros "Effacer les premiers zéros">
+<!ENTITY urlflipper.dialog.interval "Intervalle">
+<!ENTITY urlflipper.dialog.skipCount "Limite de saut en cas d&apos;échec">

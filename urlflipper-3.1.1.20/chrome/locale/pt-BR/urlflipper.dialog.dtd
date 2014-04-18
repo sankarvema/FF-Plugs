@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Configuração de Padrão de URL">
+<!ENTITY urlflipper.dialog.urlField "Selecionar a parte da URL para incrementar ou decrementar">
+<!ENTITY urlflipper.dialog.varySegment "Segmento da URL para variar">
+<!ENTITY urlflipper.dialog.dataType "Selecionar tipo de dado">
+<!ENTITY urlflipper.dialog.dataType.dec "Decimal (padrão)">
+<!ENTITY urlflipper.dialog.dataType.oct "Octal">
+<!ENTITY urlflipper.dialog.dataType.uhex "Hexadecimal (Letras Maiúsculas)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Hexadecimal (Letras Minúsculas)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alfanumérico (número e/ou letras)">
+<!ENTITY urlflipper.dialog.optionsBox "Opções">
+<!ENTITY urlflipper.dialog.stripZeros "Cortar zeros">
+<!ENTITY urlflipper.dialog.interval "Intervalo">
+<!ENTITY urlflipper.dialog.skipCount "Falha ao ultrapassar o limite">

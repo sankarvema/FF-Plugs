@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Ustawienia wzorca URL">
+<!ENTITY urlflipper.dialog.urlField "Aby zwiększyć/zmniejszyć, zaznacz część adresu URL">
+<!ENTITY urlflipper.dialog.varySegment "Fragment adresu URL do zmiany">
+<!ENTITY urlflipper.dialog.dataType "Wybierz typ danych">
+<!ENTITY urlflipper.dialog.dataType.dec "Dziesiętny (domyślny)">
+<!ENTITY urlflipper.dialog.dataType.oct "Ósemkowy">
+<!ENTITY urlflipper.dialog.dataType.uhex "Szesnastkowy (górny rejestr)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Szesnastkowy (dolny rejestr)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alfanumeryczny (cyfry i/lub litery">
+<!ENTITY urlflipper.dialog.optionsBox "Opcje">
+<!ENTITY urlflipper.dialog.stripZeros "Odrzucaj poprzedzające zera">
+<!ENTITY urlflipper.dialog.interval "Zmiana co">
+<!ENTITY urlflipper.dialog.skipCount "Nie udało się pominąć limitu">

@@ -1,0 +1,21 @@
+<!ENTITY urlflipper.overlay.menu.label "URL Flipper">
+<!ENTITY urlflipper.overlay.menu.accesskey "F">
+<!ENTITY urlflipper.overlay.decr.button "Snížit">
+<!ENTITY urlflipper.overlay.decr.label "Snížit URL">
+<!ENTITY urlflipper.overlay.decr.accesskey "D">
+<!ENTITY urlflipper.overlay.incr.button "Zvýšit">
+<!ENTITY urlflipper.overlay.incr.label "Zvýšit URL">
+<!ENTITY urlflipper.overlay.incr.accesskey "Z">
+<!ENTITY urlflipper.overlay.clear.button "Vyčistit vzor">
+<!ENTITY urlflipper.overlay.clear.label "Vyčistit aktuální vzor">
+<!ENTITY urlflipper.overlay.clear.accesskey "V">
+<!ENTITY urlflipper.overlay.qdecr.label "Rychle snížit URL">
+<!ENTITY urlflipper.overlay.qdecr.accesskey "N">
+<!ENTITY urlflipper.overlay.qincr.label "Rychle zvýšit URL">
+<!ENTITY urlflipper.overlay.qincr.accesskey "V">
+<!ENTITY urlflipper.overlay.nuke.label "Smazat data pro všechny vzory">
+<!ENTITY urlflipper.overlay.options.label "Možnosti…">
+<!ENTITY urlflipper.settings.title "Nastavení rozšíření URL Flipper">
+<!ENTITY urlflipper.settings.keysTitle "Klávesové zkratky">
+<!ENTITY urlflipper.settings.keysInstr "Stisknutím požadované posloupnosti kláves změníte zkratku.">
+<!ENTITY urlflipper.settings.keysEffect "Poznámka: Změny se projeví až v nových oknech.">

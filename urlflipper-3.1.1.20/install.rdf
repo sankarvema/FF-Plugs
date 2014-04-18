@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>urlflipper@mozilla.ktechcomputing.com</em:id>
+		<em:version>3.1.1.20</em:version>
+		<em:type>2</em:type>
+		<em:unpack>false</em:unpack>
+
+		<!-- Target Application(s) -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.5</em:minVersion>
+				<em:maxVersion>4.2a1pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		<em:targetApplication>
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>2.0b1pre</em:minVersion>
+				<em:maxVersion>2.2a1pre</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<!-- Front End Integration Hooks -->
+		<em:optionsURL>chrome://urlflipper/content/urlflipper.settings.xul</em:optionsURL>
+
+		<!-- Front End MetaData -->
+		<em:name>URL Flipper</em:name>
+		<em:description>Quickly and easily increment and decrement numbers and strings in URLs.</em:description>
+		<em:creator>Kai Liu</em:creator>
+		<em:translator>cs: Stanislav Horáček</em:translator>
+		<em:translator>de: Team erweiterungen.de, Archaeopteryx</em:translator>
+		<em:translator>fr: nico@nc</em:translator>
+		<em:translator>it-IT: GiUmaTo</em:translator>
+		<em:translator>pl: Leszek (teo) Życzkowski</em:translator>
+		<em:translator>pt-BR: Humberto Sartini</em:translator>
+		<em:translator>tr-TR: H. Ateş</em:translator>
+		<em:translator>uk-UA: Володимир Савчук</em:translator>
+		<em:contributor>Scott McBrady (feedback and suggestions)</em:contributor>
+		<em:contributor>Erdem Guven (feedback and suggestions)</em:contributor>
+		<em:contributor>Magpie by Ben Goodger (inspiration for URL Flipper)</em:contributor>
+		<em:homepageURL>http://code.kliu.org/urlflipper/</em:homepageURL>
+		<em:updateURL>http://code.kliu.org/urlflipper/update.rdf</em:updateURL>
+		<em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUT/dZlYj5BNo/Uaw5XD9fbNEuOEn9cL0pbAi9ehP2oCzdQSulapemghRjnS+UaL2/g+C0eu+SO3pH7zbaLpcbw8wajni3iS82wb6b2tUSCWsOCa7+2oH+5iQ5162Z1GE0bIJfyd8uqKY/emuaU+ZOAAbBU37CojY0e73qhJjRTQIDAQAB</em:updateKey>
+	</Description>
+
+</RDF>

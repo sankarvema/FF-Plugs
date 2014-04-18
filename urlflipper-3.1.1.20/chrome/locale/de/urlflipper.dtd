@@ -1,0 +1,21 @@
+<!ENTITY urlflipper.overlay.menu.label "Adressparameter erhöhen/verringern">
+<!ENTITY urlflipper.overlay.menu.accesskey "M">
+<!ENTITY urlflipper.overlay.decr.button "Verringern">
+<!ENTITY urlflipper.overlay.decr.label "Verringern (eventuell mit Einstellungsfenster)">
+<!ENTITY urlflipper.overlay.decr.accesskey "v">
+<!ENTITY urlflipper.overlay.incr.button "Erhöhen">
+<!ENTITY urlflipper.overlay.incr.label "Erhöhen (eventuell mit Einstellungsfenster)">
+<!ENTITY urlflipper.overlay.incr.accesskey "E">
+<!ENTITY urlflipper.overlay.clear.button "Muster löschen">
+<!ENTITY urlflipper.overlay.clear.label "Aktuelles Muster löschen">
+<!ENTITY urlflipper.overlay.clear.accesskey "L">
+<!ENTITY urlflipper.overlay.qdecr.label "Verringern ohne Einstellungsfenster">
+<!ENTITY urlflipper.overlay.qdecr.accesskey "R">
+<!ENTITY urlflipper.overlay.qincr.label "Erhöhen ohne Einstellungsfenster">
+<!ENTITY urlflipper.overlay.qincr.accesskey "H">
+<!ENTITY urlflipper.overlay.nuke.label "Alle Muster löschen">
+<!ENTITY urlflipper.overlay.options.label "Einstellungen…">
+<!ENTITY urlflipper.settings.title "URL Flipper - Einstellungen">
+<!ENTITY urlflipper.settings.keysTitle "Tastaturkürzel">
+<!ENTITY urlflipper.settings.keysInstr "Zum Ändern der Tastaturkürzel für die Änderung des Adressparameters bitte in das entsprechende Feld klicken und das gewünschte Tastaturkürzel drücken.">
+<!ENTITY urlflipper.settings.keysEffect "Hinweis: Änderungen wirken sich erst auf neue Fenster auf.">

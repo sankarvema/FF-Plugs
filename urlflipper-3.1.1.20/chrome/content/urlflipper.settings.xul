@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is URL Flipper.
+   -
+   - The Initial Developer of the Original Code is Kai Liu.
+   - Portions created by the Initial Developer are Copyright (C) 2008-2009
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Kai Liu <kliu@code.kliu.org>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://urlflipper/locale/urlflipper.dtd">
+
+<prefwindow id="urlflipperSettings"
+            title="&urlflipper.settings.title;"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+            onload="urlflipperSettings.load();">
+
+	<script src="chrome://urlflipper/content/urlflipper.settings.js" type="application/x-javascript" />
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="platformKeys" src="chrome://global-platform/locale/platformKeys.properties" />
+		<stringbundle id="globalKeys" src="chrome://global/locale/keys.properties" />
+	</stringbundleset>
+
+	<prefpane id="urlflipperSettingsPane" label="&urlflipper.settings.title;">
+		<preferences>
+			<preference id="decr-modifiers" name="extensions.urlflipper.decr-modifiers" type="string" />
+			<preference id="decr-key" name="extensions.urlflipper.decr-key" type="string" />
+			<preference id="incr-modifiers" name="extensions.urlflipper.incr-modifiers" type="string" />
+			<preference id="incr-key" name="extensions.urlflipper.incr-key" type="string" />
+			<preference id="qdecr-modifiers" name="extensions.urlflipper.qdecr-modifiers" type="string" />
+			<preference id="qdecr-key" name="extensions.urlflipper.qdecr-key" type="string" />
+			<preference id="qincr-modifiers" name="extensions.urlflipper.qincr-modifiers" type="string" />
+			<preference id="qincr-key" name="extensions.urlflipper.qincr-key" type="string" />
+			<preference id="clear-modifiers" name="extensions.urlflipper.clear-modifiers" type="string" />
+			<preference id="clear-key" name="extensions.urlflipper.clear-key" type="string" />
+		</preferences>
+
+		<vbox hidden="true">
+			<textbox preference="decr-modifiers" id="decr-modifiersCtrl" disabled="true" />
+			<textbox preference="decr-key" id="decr-keyCtrl" disabled="true" />
+			<textbox preference="incr-modifiers" id="incr-modifiersCtrl" disabled="true" />
+			<textbox preference="incr-key" id="incr-keyCtrl" disabled="true" />
+			<textbox preference="qdecr-modifiers" id="qdecr-modifiersCtrl" disabled="true" />
+			<textbox preference="qdecr-key" id="qdecr-keyCtrl" disabled="true" />
+			<textbox preference="qincr-modifiers" id="qincr-modifiersCtrl" disabled="true" />
+			<textbox preference="qincr-key" id="qincr-keyCtrl" disabled="true" />
+			<textbox preference="clear-modifiers" id="clear-modifiersCtrl" disabled="true" />
+			<textbox preference="clear-key" id="clear-keyCtrl" disabled="true" />
+		</vbox>
+
+		<groupbox orient="vertical">
+			<caption label="&urlflipper.settings.keysTitle;" />
+
+			<description>&urlflipper.settings.keysInstr;</description>
+			<separator class="thin" />
+
+			<hbox align="center">
+				<label control="decrCtrl" flex="1">&urlflipper.overlay.decr.label;</label>
+				<textbox id="decrCtrl" onkeypress="urlflipperSettings.handle('decr', event);"
+				         readonly="true" size="25" style="text-align:center;" />
+			</hbox>
+
+			<hbox align="center">
+				<label control="incrCtrl" flex="1">&urlflipper.overlay.incr.label;</label>
+				<textbox id="incrCtrl" onkeypress="urlflipperSettings.handle('incr', event);"
+				         readonly="true" size="25" style="text-align:center;" />
+			</hbox>
+
+			<hbox align="center">
+				<label control="qdecrCtrl" flex="1">&urlflipper.overlay.qdecr.label;</label>
+				<textbox id="qdecrCtrl" onkeypress="urlflipperSettings.handle('qdecr', event);"
+				         readonly="true" size="25" style="text-align:center;" />
+			</hbox>
+
+			<hbox align="center">
+				<label control="qincrCtrl" flex="1">&urlflipper.overlay.qincr.label;</label>
+				<textbox id="qincrCtrl" onkeypress="urlflipperSettings.handle('qincr', event);"
+				         readonly="true" size="25" style="text-align:center;" />
+			</hbox>
+
+			<hbox align="center">
+				<label control="clearCtrl" flex="1">&urlflipper.overlay.clear.label;</label>
+				<textbox id="clearCtrl" onkeypress="urlflipperSettings.handle('clear', event);"
+				         readonly="true" size="25" style="text-align:center;" />
+			</hbox>
+
+			<separator class="thin" />
+			<description>&urlflipper.settings.keysEffect;</description>
+		</groupbox>
+	</prefpane>
+
+</prefwindow>

@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "URL Pattern Setup">
+<!ENTITY urlflipper.dialog.urlField "Select the part of the URL to increment or decrement">
+<!ENTITY urlflipper.dialog.varySegment "URL segment to vary">
+<!ENTITY urlflipper.dialog.dataType "Select data type">
+<!ENTITY urlflipper.dialog.dataType.dec "Decimal (default)">
+<!ENTITY urlflipper.dialog.dataType.oct "Octal">
+<!ENTITY urlflipper.dialog.dataType.uhex "Hexadecimal (uppercase)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Hexadecimal (lowercase)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alphanumeric (numbers and/or letters)">
+<!ENTITY urlflipper.dialog.optionsBox "Options">
+<!ENTITY urlflipper.dialog.stripZeros "Strip away leading zeros">
+<!ENTITY urlflipper.dialog.interval "Interval">
+<!ENTITY urlflipper.dialog.skipCount "Failure skip limit">

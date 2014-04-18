@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Nastavení vzoru adresy URL">
+<!ENTITY urlflipper.dialog.urlField "Vyberte část URL, která se bude zvyšovat nebo snižovat">
+<!ENTITY urlflipper.dialog.varySegment "Měnící se část URL">
+<!ENTITY urlflipper.dialog.dataType "Vyberte typ dat">
+<!ENTITY urlflipper.dialog.dataType.dec "Desítková (výchozí)">
+<!ENTITY urlflipper.dialog.dataType.oct "Osmičková">
+<!ENTITY urlflipper.dialog.dataType.uhex "Šestnáctková (velká písmena)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Šestnáctková (malá písmena)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alfanumerická (číslice a/nebo písmena)">
+<!ENTITY urlflipper.dialog.optionsBox "Možnosti">
+<!ENTITY urlflipper.dialog.stripZeros "Odstranit počáteční nuly">
+<!ENTITY urlflipper.dialog.interval "Interval">
+<!ENTITY urlflipper.dialog.skipCount "Limit pro přeskočení při selhání">

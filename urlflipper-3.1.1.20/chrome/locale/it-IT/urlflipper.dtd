@@ -1,0 +1,21 @@
+<!ENTITY urlflipper.overlay.menu.label "URL Flipper">
+<!ENTITY urlflipper.overlay.menu.accesskey "F">
+<!ENTITY urlflipper.overlay.decr.button "Decrementa">
+<!ENTITY urlflipper.overlay.decr.label "Decrementa URL">
+<!ENTITY urlflipper.overlay.decr.accesskey "D">
+<!ENTITY urlflipper.overlay.incr.button "Incrementa">
+<!ENTITY urlflipper.overlay.incr.label "Incrementa URL">
+<!ENTITY urlflipper.overlay.incr.accesskey "I">
+<!ENTITY urlflipper.overlay.clear.button "Cancella Schema">
+<!ENTITY urlflipper.overlay.clear.label "Cancella Schema Corrente">
+<!ENTITY urlflipper.overlay.clear.accesskey "C">
+<!ENTITY urlflipper.overlay.qdecr.label "Decrementa URL Veloce">
+<!ENTITY urlflipper.overlay.qdecr.accesskey "E">
+<!ENTITY urlflipper.overlay.qincr.label "Incrementa URL Veloce">
+<!ENTITY urlflipper.overlay.qincr.accesskey "N">
+<!ENTITY urlflipper.overlay.nuke.label "Cancella Tutti Gli Schemi">
+<!ENTITY urlflipper.overlay.options.label "Opzioni…">
+<!ENTITY urlflipper.settings.title "Impostazioni URL Flipper">
+<!ENTITY urlflipper.settings.keysTitle "Scorciatoie Tastiera">
+<!ENTITY urlflipper.settings.keysInstr "Per cambiare, premi la sequenza di tasti voluta.">
+<!ENTITY urlflipper.settings.keysEffect "Nota: Le modifiche avranno effetto soltanto per le nuove finestre.">

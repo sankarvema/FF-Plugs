@@ -1,0 +1,13 @@
+<!ENTITY urlflipper.dialog.title "Impostazione Schema URL">
+<!ENTITY urlflipper.dialog.urlField "Seleziona la parte dell'URL da incrementare o decrementare">
+<!ENTITY urlflipper.dialog.varySegment "Parte dell'URL da modificare">
+<!ENTITY urlflipper.dialog.dataType "Seleziona il tipo di dato">
+<!ENTITY urlflipper.dialog.dataType.dec "Decimale (default)">
+<!ENTITY urlflipper.dialog.dataType.oct "Ottale">
+<!ENTITY urlflipper.dialog.dataType.uhex "Esadecimale (maiuscolo)">
+<!ENTITY urlflipper.dialog.dataType.lhex "Esadecimale (minuscolo)">
+<!ENTITY urlflipper.dialog.dataType.alpha "Alfanumerico (cifre e/o lettere)">
+<!ENTITY urlflipper.dialog.optionsBox "Opzioni">
+<!ENTITY urlflipper.dialog.stripZeros "Rimuovi zeri iniziali">
+<!ENTITY urlflipper.dialog.interval "Intervallo">
+<!ENTITY urlflipper.dialog.skipCount "N.ro max errori da saltare">
